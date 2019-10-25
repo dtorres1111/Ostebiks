@@ -1,0 +1,42 @@
+<% include ../partials/head %>
+<% include ../partials/header %>
+
+<main>
+    <section>
+        <h1>Velkommen til Products</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem quaerat beatae tenetur. Molestiae accusamus aspernatur optiomagni quam autem? Neque eius illum molestias ipsam adipisci tenetur possimus alias unde nesciunt?</p>
+        <ul class="cardList"></ul>
+    </section>
+</main>
+<script src="/assets/javascript/produkter.js"></script>
+
+<template id="cardTemplate">
+    <li>
+        <article class="kort">
+            <div class="kort__wrapper">
+                <img class="kort__img" src="">
+                <h2 class="kort__h2"></h2>
+                <p class="kort__tekst">
+                </p>
+            </div>
+            <table>
+                <tr>
+                    <th>Land</th>
+                    <td><span class="country"></span></td>
+                </tr>
+                <tr>
+                    <th>vægt</th>
+                    <td><span class="weight"></span></td>
+                </tr>
+                <tr>
+                    <th>Pris</th>
+                    <td><span class="price"></span></td>
+                </tr>
+            </table>
+            <a href="single.html">læs mere</a>
+        </article>
+    </li>
+ </template>
+
+<% include ../partials/footer %>
+<% include ../partials/after-footer %>

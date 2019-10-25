@@ -1,0 +1,34 @@
+[
+    {
+        "sku": 250000,
+        "navn": "Feta",
+        "beskrivelse": [
+            "Lorem ipsum",
+            "dolor sit amet"
+        ],
+        "land": "Græsk",
+        "pris": 34.95,
+        "vægt": 250,
+        "billeder": [
+            "feta01.jpg"
+        ]
+
+        
+    },
+    {
+        "sku": 300000,
+        "navn": "Gouda",
+        "beskrivelse": [
+            "Lorem ipsum",
+            "dolor sit amet"
+        ],
+        "land": "Hollandsk",
+        "pris": 50,
+        "vægt": 185,
+        "billeder": [
+            "gouda01.jpg"
+        ]
+
+        
+    }
+]
